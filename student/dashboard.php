@@ -28,7 +28,7 @@ include '../includes/header.php';
 
 <div class="container">
     <div class="page-header">
-        <h1>Welcome, <?= htmlspecialchars($student['full_name']) ?> 👋</h1>
+        <h1>Welcome, <?= htmlspecialchars($student['full_name']) ?> </h1>
         <a href="submit_complaint.php" class="btn btn-primary">+ New Complaint</a>
     </div>
 
